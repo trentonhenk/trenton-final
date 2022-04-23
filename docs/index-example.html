@@ -2,12 +2,14 @@
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
-    <title>Index page title</title>
+    <title>Drift Magazine | Index page title</title>
     <meta name="description" content="The index search description for this page goes here.">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,7 +36,7 @@
         </li>
       </ul>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <input id="bar" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
@@ -43,8 +45,9 @@
 
     <div id="jumbo" class="p-5 mb-4 bg-light">
   <div class="container-fluid py-5 text-center">
-    <h1 class="display-5 fw-bold">Bringing nature inside.</h1>
-    <p>Drift Magazine was created to connect students at the University of Texas with the greater outdoor community. We aim to explore subcultures, challenge viewpoints and highlight people.</p>
+    <h1 id="slogan" class="display-5 fw-bolder">Drift Magazine</h1>
+    <p id="manifesto">Drift Magazine was created to connect students at the <span class="fw-bold">University of Texas</span> with the greater outdoor community.</p>
+    <p id="manifesto">We aim to explore subcultures, challenge viewpoints and highlight people.</p>
   </div>
 </div>
 
@@ -122,7 +125,7 @@
     <footer>
 <p id="legal" class="center-block text-center">
   <small>&copy; <span class="copyright-year"></span>
-  A class project by First Last.
+  A class project by Trenton Henk.
 </p>
 </footer>
 
