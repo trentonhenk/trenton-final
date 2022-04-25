@@ -6,9 +6,9 @@
       "name": "library"
     },
     {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
-      "type": "sheet",
-      "name": "bookstores"
+      "fileId": "1YBtFeHVo10i9kolHW-pAuDLPfWogn6Hts57vmbAwvAA",
+      "type": "doc",
+      "name": "article"
     }
   ],
   "to_bake": [
@@ -18,6 +18,27 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-article",
+      "data": "article",
+      "array": "article1",
+      "slug": "slug",
+      "path": "article"
+    },
+    {
+      "template": "bake-article",
+      "data": "article",
+      "array": "article2",
+      "slug": "slug",
+      "path": "article"
+    },
+    {
+      "template": "bake-article",
+      "data": "article",
+      "array": "article3",
+      "slug": "slug",
+      "path": "article"
     }
   ]
 }

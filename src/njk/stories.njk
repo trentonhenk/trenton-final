@@ -1,0 +1,50 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Stories{% endblock %}
+{% block content %}
+<div class="container">
+<div class="row">
+  <div class="col-lg-6 col-md-5 col-sm-4 offset-md-3">
+    <h1 id="story-title" class="text-center">Stories From the Outside</h1>
+  </div>
+</div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mx-3">
+    <div class="col">
+      {% for article1 in article.article1 %}
+      <div class="card h-100">
+        <img id="corn" src="img/drift_photo 2.jpg" class="card-img-top embed-responsive-item" alt="man in tall grass">
+        <div class="card-body">
+          <h5 class="card-title">Not Idaho, But Not Bad</h5>
+          <p class="card-text">By Alex Street</p>
+          <a href="article/{{ article1.slug }}.html" target="_blank" class="btn btn-outline-dark">Read More</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col">
+      {% for article2 in article.article2 %}
+      <div class="card h-100">
+        <img id="sam" src="img/sam.jpeg" class="card-img-top embed-responsive-item" alt="man with camera">
+        <div class="card-body">
+          <h5 class="card-title">Through the Traveler’s Lens</h5>
+          <p class="card-text">By Jacqueline Knox</p>
+          <a href="article/{{ article2.slug }}.html" target="_blank" class="btn btn-outline-dark">Read More</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col">
+      {% for article3 in article.article3 %}
+      <div class="card h-100">
+        <img id="hands" src="img/hands.jpeg" class="card-img-top embed-responsive-item" alt="bloody, chalked-up hands">
+        <div class="card-body">
+          <h5 class="card-title">The Art of 'Chalking Up'</h5>
+          <p class="card-text">By Trenton Henk</p>
+          <a href="article/{{ article3.slug }}.html" target="_blank" class="btn btn-outline-dark">Read More</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endblock %}
