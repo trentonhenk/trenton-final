@@ -1,24 +1,17 @@
 {
   "files": [
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
-      "type": "doc",
-      "name": "library"
-    },
-    {
       "fileId": "1YBtFeHVo10i9kolHW-pAuDLPfWogn6Hts57vmbAwvAA",
       "type": "doc",
       "name": "article"
+    },
+    {
+      "fileId": "1zPGMJnX0G-mjUMurg1n2j4FphcpqzxZaDeV661C2Rgg",
+      "type": "sheet",
+      "name": "activities"
     }
   ],
   "to_bake": [
-    {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
-      "slug": "slug",
-      "path": "books"
-    },
     {
       "template": "bake-article",
       "data": "article",

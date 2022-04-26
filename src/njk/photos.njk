@@ -1,0 +1,37 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Photos{% endblock %}
+{% block content %}
+<div id="photo-page" class="container col-md-8 col-sm-4">
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/drift_photo 2.jpg" class="d-block w-100" alt="man in tall grass">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/sam.jpeg" class="d-block w-100" alt="man with camera">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/hands.jpeg" class="d-block w-100" alt="bloody hands with bandages and chalk">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/IMG_3084.jpeg" class="d-block w-100" alt="man standing on rock in lake">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/IMG_0778.JPG" class="d-block w-100" alt="people walking on sand">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/IMG_0776.JPG" class="d-block w-100" alt="house on pier">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{
+  "activities": [
+    {
+      "slug": "activity-one",
+      "activity": "Swimming",
+      "location": "The Barton Creek Greenbelt in Austin",
+      "blurb": "The Barton Creek Greenbelt is home to many nature trails and swimming holes. Pack a lunch, a change of clothes and hit the trails, but be sure to take a load off and cool off in the crisp, clean water in the oasis of Austin.",
+      "source": "https://austinparks.org/barton-creek-greenbelt/"
+    },
+    {
+      "slug": "activity-two",
+      "activity": "Camping",
+      "location": "Various Spots in and around Austin",
+      "blurb": "Austin is a city of nature lovers and enthusiasts, so it comes to no surprise that there are so many campsites around our beloved city. Check out this article for tons of spots to get yo' camp on. ",
+      "source": "https://do512.com/p/where-to-camp-around-austin"
+    },
+    {
+      "slug": "activity-three",
+      "activity": "Paddle Boarding",
+      "location": "Lady Bird Lake, various lakes around Austin",
+      "blurb": "Paddle boarding is an all-time favorite outdoor activity of locals in Austin. Head on down to one of the many piers to rent a paddle board, or if you're really into it you can buy one (there's a ton of great inflatable ones), and then get out on the water and have a blast!",
+      "source": "https://www.livelovepaddle.com/"
+    },
+    {
+      "slug": "activity-four",
+      "activity": "Produce Picking",
+      "location": "Sweet Berry Farms, Marble Falls, Texas",
+      "blurb": "My personal favorite outdoor activity: produce picking. Whatever season it is, there's always something to pick. Whether it be tulips, pumpkins or strawberries, you'll definitely have a blast with kids, family, a significant other or even by yourself!",
+      "source": "https://sweetberryfarm.com/index.html"
+    }
+  ]
+}

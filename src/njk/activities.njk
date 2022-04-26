@@ -1,0 +1,18 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Activities{% endblock %}
+{% block content %}
+  <div class="row">
+    {% for activities in activities.activities %}
+    <div class="col-sm-6">
+      <div id="outdoor-activity" class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ activities.activity }}</h5>
+          <p class="card-text">{{ activities.blurb }}</p>
+          <a href="{{ activities.source }}" class="btn btn-outline-dark">Explore More</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}
