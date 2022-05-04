@@ -1,5 +1,5 @@
 {
-  "article1": [
+  "article": [
     {
       "slug": "2020-04-18",
       "headline": "Not Idaho, But Not Bad",
@@ -48,9 +48,7 @@
           "value": "I think that sometimes the best things happen when you have the least control. This removes expectations, removes a level of comfort and invites in new and challenging experiences for all involved. Utah is a wonderful place with a variety of fun things to do, not to mention the incredible people you'll meet along the way. Far beyond the time you spend here are the memories that get created. Until next time."
         }
       ]
-    }
-  ],
-  "article2": [
+    },
     {
       "slug": "2020-03-26",
       "headline": "Through the Traverler’s Lens",
@@ -239,9 +237,7 @@
           "value": "To see more of Samuel Tippetts’ work, visit his instagram @samtippetts."
         }
       ]
-    }
-  ],
-  "article3": [
+    },
     {
       "slug": "2020-03-27",
       "headline": "The Art of ‘Chalking Up’",

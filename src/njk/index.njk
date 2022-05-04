@@ -2,54 +2,32 @@
 
 {% block page_title %}Home Page{% endblock %}
 {% block content %}
-<div id="title-header" class="row">
+<div class="container">
+<div id="title-header" class="row border border-dark border-3">
   <div class="col-lg-6 col-md-5 col-sm-4 offset-md-3">
     <h1 id="text-head" class="text-center">Bringing nature inside.</h1>
     <p id="body-head" class="text-center mb-3">Drift Magazine is an outdoor lifestyle publication at the University of Texas at Austin with a fervor for the outdoors. We strive to connect students with the environment and build a community of like-minded individuals.</p>
   </div>
 </div>
+</div>
 
 <div id="story-cards" class="container">
 <div class="row row-cols-1 row-cols-md-3 g-4 mx-3">
+    {% for article in article.article %}
     <div class="col">
-      {% for article1 in article.article1 %}
       <div class="card h-100">
-        <img id="corn" src="img/drift_photo 2.jpg" class="card-img-top embed-responsive-item" alt="man in tall grass">
+        <img id="corn" src="img/{{ article.image }}" class="card-img-top" alt="">
         <div class="card-body">
-          <h5 class="card-title">Not Idaho, But Not Bad</h5>
-          <p class="card-text">By Alex Street</p>
-          <a href="article/{{ article1.slug }}.html" target="_blank" class="btn btn-outline-dark">Read More</a>
+          <h5 class="card-title">{{ article.headline }}</h5>
+          <p class="card-text">{{ article.author }}</p>
+          <a href="article/{{ article.slug }}.html" target="_blank" class="btn btn-outline-dark">Read More</a>
         </div>
       </div>
-      {% endfor %}
     </div>
-    <div class="col">
-      {% for article2 in article.article2 %}
-      <div class="card h-100">
-        <img id="sam" src="img/sam.jpeg" class="card-img-top embed-responsive-item" alt="man with camera">
-        <div class="card-body">
-          <h5 class="card-title">Through the Traveler’s Lens</h5>
-          <p class="card-text">By Jacqueline Knox</p>
-          <a href="article/{{ article2.slug }}.html" target="_blank" class="btn btn-outline-dark">Read More</a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="col">
-      {% for article3 in article.article3 %}
-      <div class="card h-100">
-        <img id="hands" src="img/hands.jpeg" class="card-img-top embed-responsive-item" alt="bloody, chalked-up hands">
-        <div class="card-body">
-          <h5 class="card-title">The Art of 'Chalking Up'</h5>
-          <p class="card-text">By Trenton Henk</p>
-          <a href="article/{{ article3.slug }}.html" target="_blank" class="btn btn-outline-dark">Read More</a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    </div>
+    {% endfor %}
   </div>
   </div>
+    <hr class="bg-dark border-2 border-top border-dark m-5">
   <div id="info" class="container highlight">
       <div class="row">
         <div class="col-md-6 col-lg-8">
@@ -58,13 +36,14 @@
           <p>Drift was founded with the intention to help other students at UT-Austin become more involved with the outdoors. Whether it be through outdoor activities or organziations, Drift will help you find a place that you feel you belong. Follow along with our journey and we'll be sure to follow along with yours too.</p>
           <p>Follow us on Instagram @driftmagatx for everything outdoors.</p>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <img id="mount-img" class="img-fluid" src="img/IMG_1100.JPG" alt="moutain in the clouds">
+        <div class="col-sm-12 col-md-7 col-lg-4">
+          <img id="mount-img" class="img-fluid border border-dark border-3" src="img/IMG_1100.JPG" alt="moutain in the clouds">
         </div>
       </div>
     </div>
+  <hr class="bg-dark border-2 border-top border-dark m-5">
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card bg-dark text-black">
           <img src="img/IMG_0782.JPG" class="card-img" alt="pretty water">

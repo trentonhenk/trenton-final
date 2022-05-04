@@ -9,27 +9,18 @@
       "fileId": "1zPGMJnX0G-mjUMurg1n2j4FphcpqzxZaDeV661C2Rgg",
       "type": "sheet",
       "name": "activities"
+    },
+    {
+      "fileId": "1Nv4E9MXoMYZ-dqOVyRHt0rhsf8_LcqcwTmo4qIVNSpI",
+      "type": "sheet",
+      "name": "events"
     }
   ],
   "to_bake": [
     {
       "template": "bake-article",
       "data": "article",
-      "array": "article1",
-      "slug": "slug",
-      "path": "article"
-    },
-    {
-      "template": "bake-article",
-      "data": "article",
-      "array": "article2",
-      "slug": "slug",
-      "path": "article"
-    },
-    {
-      "template": "bake-article",
-      "data": "article",
-      "array": "article3",
+      "array": "article",
       "slug": "slug",
       "path": "article"
     }
